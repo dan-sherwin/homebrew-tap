@@ -3,7 +3,7 @@ cask "gormdb2struct" do
   name "gormdb2struct"
   desc "Generate strongly typed GORM models and query helpers from your database schema."
   homepage "https://github.com/dan-sherwin/gormdb2struct"
-  version "0.1.8"
+  version "0.1.9"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,11 +14,11 @@ cask "gormdb2struct" do
   on_macos do
     on_intel do
       url "https://github.com/dan-sherwin/gormdb2struct/releases/download/v#{version}/gormdb2struct_#{version}_darwin_amd64.tar.gz"
-      sha256 "266b65b02fa44dad8ec8b6f2b302c0cae3b537dbf773652382d08a7dd9317869"
+      sha256 "d28538bf6690f516ae88060dc80947a8422f42bfe608468f16618339ada99318"
     end
     on_arm do
       url "https://github.com/dan-sherwin/gormdb2struct/releases/download/v#{version}/gormdb2struct_#{version}_darwin_arm64.tar.gz"
-      sha256 "1f016a88e47553056764686123e0322ab92615a3e9ef7435138b02707953a6d2"
+      sha256 "bb72e427a2de9910736f4d1936c059592af32270b948344f24865956387ac8ce"
     end
   end
 
