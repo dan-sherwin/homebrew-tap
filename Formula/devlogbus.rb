@@ -1,26 +1,26 @@
 class Devlogbus < Formula
-  desc "Local-first structured log bus for development work"
+  desc "Real-time full-stack development log viewer"
   homepage "https://github.com/dan-sherwin/DevLogBus"
-  version "1.3.1"
+  version "1.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dan-sherwin/DevLogBus/releases/download/v1.3.1/devlogbus_v1.3.1_darwin_arm64.tar.gz"
-      sha256 "0919df1ba180c8a5192d92370a6f23cf055d4b0fd8d316ce86dd8f386665e49f"
+      url "https://github.com/dan-sherwin/DevLogBus/releases/download/v1.4.0/devlogbus_v1.4.0_darwin_arm64.tar.gz"
+      sha256 "69ab5be62e3c38c917dacb76c9b5945b52d929ce35f70b53fa45224dbce0f93a"
     else
-      url "https://github.com/dan-sherwin/DevLogBus/releases/download/v1.3.1/devlogbus_v1.3.1_darwin_amd64.tar.gz"
-      sha256 "b5a19b4f7608d84868f99118d7ae80e2007155544a48c07a6fbd3c9ac6f7f5cb"
+      url "https://github.com/dan-sherwin/DevLogBus/releases/download/v1.4.0/devlogbus_v1.4.0_darwin_amd64.tar.gz"
+      sha256 "3d2ec9161a9aebf873c89dcc11fb0bc47ffb0de3328183ebf567e8e6befb58b1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/dan-sherwin/DevLogBus/releases/download/v1.3.1/devlogbus_v1.3.1_linux_arm64.tar.gz"
-      sha256 "fed54e5c9054f033045ac2697acc88a84c9c465e7dc3c3a9c5b9898dcf4d4a8b"
+      url "https://github.com/dan-sherwin/DevLogBus/releases/download/v1.4.0/devlogbus_v1.4.0_linux_arm64.tar.gz"
+      sha256 "96f1ad27dedc1ba5afd6ba98e3dead37f8f96f580c9b648fe4de912357762eca"
     else
-      url "https://github.com/dan-sherwin/DevLogBus/releases/download/v1.3.1/devlogbus_v1.3.1_linux_amd64.tar.gz"
-      sha256 "6368fff5bd66319df8703d9fa77ee1148bca01f241e267f1661ff45293001555"
+      url "https://github.com/dan-sherwin/DevLogBus/releases/download/v1.4.0/devlogbus_v1.4.0_linux_amd64.tar.gz"
+      sha256 "805ca1bf1ced8628f142efb260f1af951aee49bf2e27c5d64805aa68d6f362c2"
     end
   end
 
